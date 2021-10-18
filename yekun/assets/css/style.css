@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(green), to(white));
+  background-image: linear-gradient(to right, green, white);
+  min-height: 100vh;
+  color: white;
+}
+
+body h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 50px;
+}
+
+body .inputs {
+  padding: 50px;
+}
+
+body .inputs #name {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 40px;
+  width: 200px;
+}
+
+body .inputs #surname {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 40px;
+  width: 200px;
+}
+
+body .inputs #age {
+  background-color: white;
+  height: 35px;
+  border: none;
+  margin-right: 20px;
+  width: 200px;
+}
+
+body .inputs #rowButton {
+  height: 100px;
+  width: 150px;
+  background-color: darkgreen;
+  color: white;
+}
+
+body .inputs #button {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+}
+
+body .inputs #button:hover {
+  background-color: indigo;
+}
+
+body .table {
+  color: darkgreen;
+  font-size: 20px;
+}
+
+body .table #select {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: mediumblue;
+  text-align: center;
+}
+
+body .table #select:hover {
+  background-color: orange;
+}
+
+body .table .btn {
+  height: 30px;
+  width: 40px;
+}
